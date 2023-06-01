@@ -18,7 +18,7 @@ const Header = () => {
           </li>
         </ul>
         <a href="">
-          <BeloneIcon height={44}/>
+          <BeloneIcon width={120}/>
         </a>
         <ul className="navRight">
           <li>

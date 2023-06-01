@@ -1,0 +1,60 @@
+@import "../../styles/variables";
+
+.home {
+  height: calc(100vh - 60px);
+  margin-top: 60px;
+  background-color: #2f1458;
+}
+
+.home_wrapper {
+  padding: 0 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+  text-align: center;
+  & > h2 {
+    font-size: 48px;
+    line-height: 68px;
+    font-family: "Roboto";
+    margin: 0;
+    & > span {
+      background-color: $orange-color;
+      padding: 0 16px;
+      border-radius: 4px;
+      line-height: 48px;
+    }
+  }
+  & > p {
+    max-width: 500px;
+    margin: 24px 0;
+  }
+}
+
+.button_grouped {
+  display: inline-flex;
+  align-items: center;
+  gap: 16px;
+  & > a {
+    border-radius: 4px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    &:first-child {
+      background-color: $text-gray;
+      color: black;
+      & > svg {
+        margin-left: 12px;
+      }
+    }
+    &:last-child {
+      background-color: $secondary-color;
+      & > svg {
+        margin-right: 12px;
+      }
+    }
+  }
+}

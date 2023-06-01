@@ -33,10 +33,10 @@ export function BeloneIcon(props: SVGProps<SVGSVGElement>) {
             id="Studio"
             transform="translate(420 366.32)"
             fill="#fff"
-            font-size="176"
-            font-family="Jura-Bold, Jura"
-            font-weight="700"
-            letter-spacing="0.01em"
+            fontSize="176"
+            fontFamily="Jura-Bold, Jura"
+            fontWeight="700"
+            letterSpacing="0.01em"
           >
             <tspan x="0" y="0">
               Studio
@@ -46,9 +46,9 @@ export function BeloneIcon(props: SVGProps<SVGSVGElement>) {
             id="Belone"
             transform="translate(204 192.5)"
             fill="#f15a24"
-            font-size="230"
-            font-family="Jura-Bold, Jura"
-            font-weight="700"
+            fontSize="230"
+            fontFamily="Jura-Bold, Jura"
+            fontWeight="700"
           >
             <tspan x="0" y="0">
               Belone

@@ -1,18 +1,18 @@
-import * as React from "react"
-import type { HeadFC, PageProps } from "gatsby"
-import "../styles/main.scss"
-import Header from "../components/Header"
-
+import * as React from "react";
+import type { HeadFC, PageProps } from "gatsby";
+import "../styles/main.scss";
+import Header from "../components/Header";
+import Home from "../components/Home";
 
 const IndexPage: React.FC<PageProps> = () => {
   return (
     <main>
       <Header />
-      Belone Studio
+      <Home />
     </main>
-  )
-}
+  );
+};
 
-export default IndexPage
+export default IndexPage;
 
-export const Head: HeadFC = () => <title>Belone Studio</title>
+export const Head: HeadFC = () => <title>Belone Studio</title>;
